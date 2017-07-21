@@ -11,6 +11,7 @@
 #include <device.h>
 #include <stdlib.h>
 #include <string.h>
+#include "config.h"
 #include "sensors_uart_control.h"
 #include "strlib.h"
 

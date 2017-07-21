@@ -64,5 +64,16 @@
 #define OPTICAL_RAIN_LOOPS   1
 #define DECAGON_LOOPS        1
 
+
+typedef enum {
+    P12_4 = 0,
+    P12_6,
+    P3_0,
+    P3_5
+} pin_t;
+
+// Power Pins
+const pin_t ULTRASONIC_PW = P12_4;
+
 #endif
 /* [] END OF FILE */
